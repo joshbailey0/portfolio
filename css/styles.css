@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    z-index: 2;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+
+h1 {
+    font-size: 9rem;
+    font-family: 'Bayon', sans-serif;
+    margin: 0;
+    margin-top: 90px;
+    line-height: 1;
+    z-index: 2;
+    position: relative;
+    color: #951dfc;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    z-index: 2;
+    color: #951dfc;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    z-index: 2;
+    color: #2d074e;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 150px auto;
+    text-align: left;
+    line-height: 2;
+}
+.profile {
+    text-align: left;
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.profile img {
+    border-radius: 100%;
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+}
+
+.adventure {
+    float: right;
+    max-width: 30%;
+    margin-left: 30px;
+}
+.webdev {
+    float: left;
+    max-width: 30%;
+    margin-right: 30px;
+}
+.art {
+    float: right;
+    max-width: 30%;
+    margin-left: 30px;
+}
+.video {
+    float: left;
+    max-width: 30%;
+    margin-right: 30px;
+}
+
+/* Top Container Styles */
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+/* Middle Container Styles */
+.middle-container {
+    background-color: #f3daae;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+/* New Image Styles */
+img {
+    max-width: 100%;
+}
+
+/* Random Image Placement */
+.carnivorous-plant {
+    margin-top: 1rem;
+}
+
+.top-cloud {
+    position: absolute;
+    top: calc(50% - 300px);
+    right: calc(50% - 500px);
+    z-index: 1;
+}
+
+.bottom-cloud {
+    position: absolute;
+    top: calc(50% - 300px);
+    left: calc(50% - 400px);
+    z-index: 1;
+    height: 10rem;
+    transform: rotate(-15deg);
+}
+
+
+.death {
+    position: absolute;
+    top: calc(50% - 300px);
+    left: calc(50% - 200px);
+    height: 10rem;
+}
+
+.flash {
+    position: absolute;
+    top: calc(50% - 90px);
+    left: calc(50% - 550px);
+    transform: rotate(10deg);
+    height: 10rem;
+}
+
+.flash2 {
+    position: absolute;
+    top: calc(50% - 90px);
+    right: calc(50% - 550px);
+    transform: rotate(-15deg);
+    height: 10rem;
+}
